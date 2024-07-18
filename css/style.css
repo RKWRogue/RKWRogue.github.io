@@ -59,14 +59,14 @@
 body * {box-sizing: border-box;}
 html,body {
 	height: 100%;
-	font-size: 13px;	/*基準となるフォントサイズ。*/
+	font-size: 18px;	/*基準となるフォントサイズ。*/
 }
 
 	/*画面幅900px以上の追加指定*/
-	@media screen and (min-width:900px) {
+	@media screen and (min-width:1200px) {
 
 		html, body {
-			font-size: 16px;	/*基準となるフォントサイズ。*/
+			font-size: 24px;	/*基準となるフォントサイズ。*/
 		}
 
 	}/*追加指定ここまで*/
